@@ -1,18 +1,20 @@
 
-[![Build Status](https://travis-ci.org/thekvs/zstdr.svg?branch=master)](https://travis-ci.org/thekvs/zstdr) [![CRAN Status](http://www.r-pkg.org/badges/version/zstdr)](https://cran.r-project.org/package=zstdr)
+[![Build
+Status](https://app.travis-ci.com/thekvs/zstdr.svg?branch=master)](https://app.travis-ci.com/thekvs/zstdr)
+[![CRAN
+Status](http://www.r-pkg.org/badges/version/zstdr)](https://cran.r-project.org/package=zstdr)
 
-About
------
+## About
 
-This package provides simple R bindings to the [Zstandard compression library](http://facebook.github.io/zstd/).
+This package provides simple R bindings to the [Zstandard compression
+library](http://facebook.github.io/zstd/).
 
-Benchmarks
-----------
+## Benchmarks
 
-See [benchmarks](Benchmarks.md) for comparison with other compression algorithms.
+See [benchmarks](Benchmarks.md) for comparison with other compression
+algorithms.
 
-Installation
-------------
+## Installation
 
 To install from CRAN:
 
@@ -26,8 +28,7 @@ To install development version from GitHub:
 devtools::install_github("thekvs/zstdr")
 ```
 
-Usage
------
+## Usage
 
 ``` r
 library(zstdr)
@@ -38,8 +39,8 @@ compressed <- zstdCompress(data)
 stopifnot(identical(data, zstdDecompress(compressed)))
 ```
 
-Links
------
+## Links
 
 -   [zstandard official site](http://facebook.github.io/zstd/)
--   [zstandard C API documentation](http://facebook.github.io/zstd/zstd_manual.html)
+-   [zstandard C API
+    documentation](http://facebook.github.io/zstd/zstd_manual.html)

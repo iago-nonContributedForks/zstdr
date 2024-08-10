@@ -5,7 +5,7 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-[![Build Status](https://travis-ci.org/thekvs/zstdr.svg?branch=master)](https://travis-ci.org/thekvs/zstdr)
+[![Build Status](https://app.travis-ci.com/thekvs/zstdr.svg?branch=master)](https://app.travis-ci.com/thekvs/zstdr)
 [![CRAN Status](http://www.r-pkg.org/badges/version/zstdr)](https://cran.r-project.org/package=zstdr)
 
 ## About
